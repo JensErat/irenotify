@@ -6,10 +6,18 @@ This tool, `irenotify`, monitors a directory to observe file changes and touches
 
 ## Limitations
 
-- `irenotify` needs to poll for changes, suffering a performance penalty for large number of files and putting load on a network filesystem
+`irenotify` was purpose-built for a specific use case. It might also support your requirements, but keep following limitations in mind:
+
+- it needs to poll for changes, suffering a performance penalty for large number of files and putting load on a network filesystem
 - changes to a file without modification of the last modified timestamp will not be observed
 - changes to a file's last modified timestamp without actual changes to the file will trigger a touch event anyway
 - must not be used with multiple instances on the same directory -- the last modified timestamp will be synced and other instances will change the timestamp again, resulting in a loop (could be resolved by remembering a checksum, but not implemented yet)
+
+## Build
+
+`irenotify` is written in golang. Apart from requiring a working golang toolchain installed, building it is as easy as running `go build`.
+
+A Docker image is available at <https://hub.docker.com/r/jenserat/irenotify>.
 
 ## Usage
 
