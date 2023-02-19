@@ -1,0 +1,8 @@
+github.com/JensErat/fswatch v0.0.0-20230213220220-0486f1e76cef h1:dSOhtA3EnM6cML99RpMW8cISukati5+5uTH/5ZOD+uY=
+github.com/JensErat/fswatch v0.0.0-20230213220220-0486f1e76cef/go.mod h1:2+NIcdUK3AGqZ3i5lIUVotPvsIXQJH5nQHcOfyYBsdc=
+github.com/go-logr/logr v1.2.2 h1:ahHml/yUpnlb96Rp8HCvtYVPY8ZYpxq3g7UYchIYwbs=
+github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
+github.com/go-logr/stdr v1.2.2 h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=
+github.com/go-logr/stdr v1.2.2/go.mod h1:mMo/vtBO5dYbehREoey6XUKy/eSumjCCveDpRre4VKE=
+github.com/patrickmn/go-cache v2.1.0+incompatible h1:HRMgzkcYKYpi3C8ajMPV8OFXaaRUnok+kx1WdO15EQc=
+github.com/patrickmn/go-cache v2.1.0+incompatible/go.mod h1:3Qf8kWWT7OJRJbdiICTKqZju1ZixQ/KpMGzzAfe6+WQ=
